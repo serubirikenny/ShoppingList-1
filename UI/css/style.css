@@ -97,16 +97,23 @@ color: #1fb6ff;
     background-position: 512px 0px;
 }
 
-#content .list{
+#content-item{
+    clear: both;
+    background: url(../images/list-item.png) no-repeat right;
+    height: 640px;
+    background-position: 512px 0px;
+}
+
+#content-item .list{
     padding-left: 50px;
     padding-top: 15px;
 }
 
-#content .list li{
+#content-item .list li{
     margin: 8px 0;
 }
 
-#content .list li a{
+#content-item .list li a{
     color: #8492A6;
     font-family: opensans;
     font-size: 96%;
